@@ -1,0 +1,131 @@
+* {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    width: 100vw;
+  }
+  
+  .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    margin: 0, 300px, 0, 300px;
+  }
+  
+  .menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .menu ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: #003e52;
+    height: 20px;
+    margin: 10px;
+  }
+  
+  .picture, #epice {
+    width : 100vw
+  }
+  
+  #epice {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .imageepice {
+    justify-content: center;
+    flex-basis: auto;
+
+  }
+  
+  .textekomewaza {
+    flex-basis: 29%;
+    text-align: right;
+    margin-top: 100px;
+    color: #003e52;
+  }
+  
+  .textekomewaza h1 {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  .histoire{
+font-size: 20px;
+font-weight: bold;
+
+  }
+  
+  .slider {
+    width: 100vw;
+  }
+  
+  #signature {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #003e52;
+    margin: 0 350px;
+  }
+  
+  #signature h1 {
+    border-bottom: #003E52 1px solid;
+    font-size: 30px;
+    margin-bottom: 50px;
+    margin-top: 30px
+  }
+  
+  #tableau {
+    display: flex;
+    justify-content: center;
+    border-spacing: 5px 1rem;
+  }
+  
+  #tableau i {
+    margin-right: 20px;
+    font-size: 20px;
+  }
+  
+  .plats {
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  .ingredients {
+    text-align: left;
+  }
+  
+  .maps {
+    width: 100vw;
+    filter: grayscale(100%);
+  }
+  
+  .footer {
+    max-height: 200px;
+    height: 200px;
+    background-color: #003e52;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .email {
+    font-weight: bold;
+  }
